@@ -1,0 +1,46 @@
+h1,p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-style: italic;
+}
+body{
+    background-color: rgb(74, 74, 173);
+    height: 600px;
+    text-align: center;
+    width: 500px;
+    min-width: 500px;
+    min-height: 600%;
+    margin: auto;
+    
+}
+fieldset{
+    background-color: rgb(38, 38, 83);
+    margin: auto;
+    text-align: left;
+    border: none;
+    padding: 3%;
+   
+}
+form{
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(38, 38, 83);
+    display: inline-block ;
+}
+#submit{
+    width: 60%;
+    height: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+}
+#name,#email,#number,#dropdown,#feature,#comment{
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    
+}
+#re{
+justify-content: flex-end;}
