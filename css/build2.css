@@ -1,0 +1,186 @@
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-image:url(../img/s1.png),url(../img/diluc.jpg);
+    background-size: 30%, cover;
+    background-position: right top, top;
+    background-repeat:  no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    
+}
+main h1{
+    font-size: 96px;
+    line-height: 106px;
+}
+main p{
+    font-size: 18px;
+    line-height: 30px;
+}
+main a{
+    color: white;
+    display: block;
+    background-color: var(--site2);
+    width: fit-content;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+main .q p{
+    padding: 0 20px;
+    border-left: 4px solid var(--site2);
+    margin: 40px 0;
+}
+main .q p:nth-child(2){
+    margin-left: 100px;
+}
+
+
+/*category section*/
+.category{
+    height: 60vh;
+    width: 100%;
+    padding: 60px 0;
+    background:linear-gradient(white,black);
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.category p{
+   color:#111;
+   text-align: center;
+   flex-basis: 100%;
+   padding-bottom: 20px ;
+   text-transform: capitalize;
+   font-size: 22px;
+}
+.category .box{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(51, 10, 10);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    position: relative;
+    border-radius: 15px;
+}
+
+.category .box:hover .dark-overlay{
+  opacity: 0;
+}
+    
+
+.category .box:nth-child(2){
+    background-image: url(../img/s2.png);
+    
+} 
+.category .box:nth-child(3){
+    background-image: url(../img/s3.png);
+    
+}
+.category .box:nth-child(4){
+    background-image: url(../img/s4.png);
+    
+}
+.category .box:nth-child(5){
+    background-image: url(../img/s5.png);
+    
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.5;
+    transition: all ease-in-out 200ms;
+    border-radius: 15px;
+
+}
+.category h3{
+    font-size: 22px;
+    text-shadow: -2px 2px 4px  #000 ;
+    z-index: 100;
+}
+
+/*About*/
+.about{
+  height: 60vh;
+  width: 100%;  
+  padding: 60px 0;;
+  background:linear-gradient(black,white,black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+.about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.about-image img{
+    width: 300px;
+    border-radius: 300px;
+  }
+.about text{
+   flex-basis: 455px;
+  }
+.about-text h2{
+    font-size: 28px;
+    line-height: 30px;
+}
+.about-text p{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.about p{
+    color:#111;
+}
+.about a{
+    color: white;
+    display: block;
+    background-color: var(--site2);
+    width: fit-content;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.about a:hover{
+    background-color: rgb(37, 35, 35);
+   
+}
+.about .Sk1{
+    width: calc(100%-8px);
+    height: 20px;
+    border: solid 4px rgb(0, 0, 0);
+    
+}
+.about .about-skills{
+    flex-basis: 300px;
+}
+.about .bar{
+    height: 13px;
+    background-color: aqua;
+}
+
+.game1{
+    width: 90%;
+
+}
+.game2{
+    width: 60%;
+
+}
+.game3{
+    width: 50%;
+
+}
+
