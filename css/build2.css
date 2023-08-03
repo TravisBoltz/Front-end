@@ -10,6 +10,7 @@ main{
     align-items: center;
     justify-content: center;
     column-gap: 200px;
+    
 }
 main h1{
     font-size: 96px;
@@ -39,9 +40,10 @@ main .q p:nth-child(2){
 
 /*category section*/
 .category{
+    height: 60vh;
     width: 100%;
     padding: 60px 0;
-    background-color: #ffffff;
+    background:linear-gradient(white,black);
     display: flex;
     justify-content: center;
     column-gap: 20px;
@@ -109,9 +111,10 @@ main .q p:nth-child(2){
 
 /*About*/
 .about{
+  height: 60vh;
   width: 100%;  
   padding: 60px 0;;
-  background-color: rgb(51, 10, 10);
+  background:linear-gradient(black,white,black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,6 +141,9 @@ main .q p:nth-child(2){
     font-size: 15px;
     line-height: 30px;
     padding: 20px 0;
+}
+.about p{
+    color:#111;
 }
 .about a{
     color: white;
@@ -177,3 +183,4 @@ main .q p:nth-child(2){
     width: 50%;
 
 }
+

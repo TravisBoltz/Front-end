@@ -1,46 +1,91 @@
+/*Put css file in a folder called css*/
 h1,p{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 p{
     font-style: italic;
 }
 body{
-    background-color: rgb(74, 74, 173);
-    height: 600px;
+   background-image: url("https://github.com/TravisBoltz/Front-end/blob/main/img/bg.jpg?raw=true");
     text-align: center;
-    width: 500px;
-    min-width: 500px;
-    min-height: 600%;
-    margin: auto;
+    margin:0 30%;
+
+    opacity: 0.8;
     
 }
 fieldset{
-    background-color: rgb(38, 38, 83);
+    background-color:rgb(50, 50, 54);
     margin: auto;
     text-align: left;
     border: none;
-    padding: 3%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
    
+}
+fieldset p{
+    text-align: left;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+fieldset label{
+    line-height: 40px;
+ 
+
 }
 form{
     color: rgb(255, 255, 255);
-    border: solid;
-    border-color: rgb(38, 38, 83);
-    display: inline-block ;
+  
 }
 #submit{
-    width: 60%;
-    height: 20px;
+    width: 120px;
+    height: 50px;
     display: block;
-    margin: auto;
-    border-radius: 6px;
+    margin: 20px auto;
+    border-radius: 60px;
 }
-#name,#email,#number,#dropdown,#feature,#comment{
+#submit:hover{
+    background-color: red;
+}
+#name,#email,#number, select{
     width: 100%;
     display: block;
     border-radius: 6px;
+    height: 30px;
     
 }
-#re{
-justify-content: flex-end;}
+#comment{
+    width: 100%;
+    display: block;
+    border-radius: 6px;   
+}
+
+select .grey{
+    color: grey;
+}
+input{
+    width: 20px;
+    height: 13px;
+}
+input:hover, select:hover{
+   opacity: 0.6;
+}
+
+
+@media screen and (max-width: 900px){
+    body{
+    height: 100%;
+    margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    body{
+    height: 100%;
+    margin: 0;
+    }
+}
+
